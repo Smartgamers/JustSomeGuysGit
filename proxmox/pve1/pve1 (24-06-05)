@@ -2,11 +2,7 @@ Specs [hp rmn hstnn-fo1c] (https://www.youtube.com/watch?v=IFOXNhHPkgA) (4cpuslo
 
 This is my first Proxmox server ever. i will be following the "Proxmox full course" from (Learn Linux TV) on youtube.
 
-
-
-
 After enabeling virtualisation and downloading the iso to my internal drive. i got it working, i just needed to connect it to my home made network switch and it was done.
 
-i will probably be using this as a backup node in a cluster. yknow, to migrate vms when moving my main server. If i expand my proxmox setup.
+i will probably be using this as a ✧˖°.backup node✧˖°. in a cluster. yknow, to migrate vms when moving my main server. If i expand my proxmox setup.
 But for the time being thi will be my test/learning enviroment.
-
