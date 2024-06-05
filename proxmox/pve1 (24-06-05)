@@ -1,6 +1,8 @@
 Specs [hp rmn hstnn-fo1c] (https://www.youtube.com/watch?v=IFOXNhHPkgA) (4cpuslow) (4gbramslow) (1thddext4mid)
 
-This is my first Proxmox server ever. iwill be following the Proxde from (Learn Linux TV) on youtube.
+This is my first Proxmox server ever. i will be following the "Proxmox full course" from (Learn Linux TV) on youtube.
+
+
 
 
 After enabeling virtualisation and downloading the iso to my internal drive. i got it working, i just needed to connect it to my home made network swithc and it was done
