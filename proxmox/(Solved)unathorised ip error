@@ -1,0 +1,5 @@
+so when trying to apt update with root i get error 401 unathorized ip.
+looking uo 401 we see that it probably means something about lacking premission.
+so i decide to try and update vie proxmox admin webpage instead of ssh command line
+it spits out a error cuz i dont have the premium subscription,
+but then it works fine anyways ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
