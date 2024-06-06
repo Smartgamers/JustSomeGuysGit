@@ -1,4 +1,4 @@
-thsi was my first VM on Proxmox
+this was my first VM on Proxmox
 problem one was that after getting the VM up and running, i loaded into the graphical install.
 But something seemed wrong. it was really ugl, and in some parts unreadeble,
 this was because my allocated RAM was 512 so it booted into (low memory setup mode)
