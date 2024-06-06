@@ -1,0 +1,10 @@
+thsi was my first VM on Proxmox
+problem one was that after getting the VM up and running, i loaded into the graphical install.
+But something seemed wrong. it was really ugl, and in some parts unreadeble,
+this was because my allocated RAM was 512 so it booted into (low memory setup mode)
+
+After finnaly logging in to my machine i encountered another error.
+i could not ping 8.8.8.8 why? i dont know.💀💀💀
+
+After all this i decided to switch to Ubuntuserver 24.4 instead because i am familiar with it
+unlike Debian witch i used have used not very much. (..◜ᴗ◝..)
