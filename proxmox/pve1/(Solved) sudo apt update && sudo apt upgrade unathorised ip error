@@ -3,3 +3,8 @@ looking uo 401 we see that it probably means something about lacking premission.
 so i decide to try and update vie proxmox admin webpage instead of ssh command line
 it spits out a error cuz i dont have the premium subscription,
 but then it works fine anyways ദ്ദി(˵ •̀ ᴗ - ˵ ) ✧
+
+I ran into this problem again a second time, so a new fix was discoverd!
+Solving this was done in the (Reposotorys) page under (Updates)
+You will have some enterprise packages on by default and not just one, but multiple with diffrent names
+just disabeling them and enabeling the free counter parts sovse this error.
