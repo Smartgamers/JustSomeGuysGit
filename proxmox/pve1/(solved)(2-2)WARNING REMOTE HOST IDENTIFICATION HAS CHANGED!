@@ -1,0 +1,10 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+that is the error you get when you dont have a public ssh key connected to your cloud  init config file in proxmox.
+
+However if you have the ssh key setup but are still getting this error, it might be because (:\Users\<user>\.ssh)(on windows) has a key that dosent work.
+This can happen if you try sshing before you get a custom ssh key and accept keyprint.
+When accepting keyprint a file will be created that ssh will default to before the custom ssh key.
+removing  this faulty key will let ssh use the working key. ٩(ˊᗜˋ*)و ♡
