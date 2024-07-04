@@ -1,4 +1,0 @@
-my second VM didnt work because of a problem with my cpu.
-for some reason the cpu i was usin (Intel(R) Core(TM) i3 CPU M 330) was being seen as x86-64-v2-AES.
-somehow the default option for that cpu seems to be messed up, opther people using the same cpu have encoutered the same problem.
-but switching to (kvm64) or (host) seems to have solved it ◝(ᵔᵕᵔ)◜

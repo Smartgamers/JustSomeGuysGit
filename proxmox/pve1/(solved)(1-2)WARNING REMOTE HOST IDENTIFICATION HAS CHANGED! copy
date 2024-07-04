@@ -1,8 +1,0 @@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-that is the error you get when you dont have a public ssh key connected to your cloud  init config file in proxmox.
-first you are going to need 2 ssh keys. (Pub key) and (pri key)
-After generating the keys all you have to do is add the (pub key) in the cloud init config.
-if it still giving the same error. go to ((solved)(2-2)WARNING REMOTE HOST IDENTIFICATION HAS CHANGED!) for the next fix. ( ˶°ㅁ°) !!

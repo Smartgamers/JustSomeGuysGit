@@ -1,2 +1,0 @@
-enter vm host machine and enter
-qm set <vmid> --serial0 socket --vga serial0
