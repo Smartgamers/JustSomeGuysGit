@@ -1913,7 +1913,7 @@ input, select, textarea {
 		appearance: none;
 		background: rgba(212, 212, 255, 0.035);
 		border: none;
-		border-radius: 0;
+		border-radius: 100;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2792,7 +2792,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.30;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -3380,7 +3380,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/3.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3408,14 +3408,14 @@ input, select, textarea {
 			-moz-transition-delay: 0.75s;
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			transition-delay: 0.001s;
 			pointer-events: none;
 			background-color: #242943;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.5;
 			position: absolute;
 			top: 0;
 			width: 100%;
