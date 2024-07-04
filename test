@@ -1,7 +1,0 @@
-make vm
-no OS
-qemu
-no DISK
-cpu kvm64
-mem1024
-
