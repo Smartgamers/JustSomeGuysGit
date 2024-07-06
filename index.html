@@ -1,20 +1,56 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="icon" type="image/x-icon" href="persona5.jpg" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>moretets</title>
-    <link rel="stylesheet" href="main.css" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="cli.jpg">
+    <title>Vincent's Hub.Dev</title>
+    <link rel="stylesheet" href="main.css">
     <script src="bundle.js"></script>
-    <meta name="description" content="Personal website for Zachey" />
-  </head>
-  <body>
+    <meta name="description" content="Website of Vincent!">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #terminal {
+            max-width: 100%;
+            padding: 20px;
+            overflow-x: auto; /* Ensures that content is scrollable if it overflows horizontally */
+        }
+        .inlineContainer {
+            white-space: pre-wrap; /* Preserves whitespace and ensures content wraps within the container */
+            word-wrap: break-word; /* Breaks long words to fit within the container */
+        }
+        pre {
+            overflow-x: auto;
+        }
+        h1 {
+            font-size: 24px;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 20px;
+            }
+            .inlineContainer {
+                padding: 10px;
+                margin: 5px 0;
+            }
+            #cmd {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
     <div id="terminal">
-      <div id="mainInfo">
-        <div>
-          <div class="inlineContainer">
-            <pre>
+        <div id="mainInfo">
+            <div>
+                <div class="inlineContainer">
+                    <pre>
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ░██╗░░░██╗██╗███╗░░██╗░█████╗░███████╗███╗░░██╗████████╗░░░██████╗░███████╗██╗░░░██╗░
 ░██║░░░██║██║████╗░██║██╔══██╗██╔════╝████╗░██║╚══██╔══╝░░░██╔══██╗██╔════╝██║░░░██║░
@@ -22,7 +58,8 @@
 ░░╚████╔╝░██║██║╚████║██║░░██╗██╔══╝░░██║╚████║░░░██║░░░░░░██║░░██║██╔══╝░░░╚████╔╝░░
 ░░░╚██╔╝░░██║██║░╚███║╚█████╔╝███████╗██║░╚███║░░░██║░░░██╗██████╔╝███████╗░░╚██╔╝░░░
 ░░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚════╝░╚══════╝╚═╝░░╚══╝░░░╚═╝░░░╚═╝╚═════╝░╚══════╝░░░╚═╝░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░<!--
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+<!--
 ███████╗░█████╗░░█████╗░██╗░░██╗███████╗██╗░░░██╗
 ╚════██║██╔══██╗██╔══██╗██║░░██║██╔════╝╚██╗░██╔╝
 ░░███╔═╝███████║██║░░╚═╝███████║█████╗░░░╚████╔╝░
@@ -55,8 +92,9 @@ __/\\\________/\\\______________________________________________________________
             -->
 
         </pre>
-            <img src="persona5.jpg" alt class="avatar" />
+        
           </div>
+              
           <br />
           Welcome to my personal website!
           <br />
